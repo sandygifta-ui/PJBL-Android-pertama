@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Form Pendaftaran</string>
+    <string name="pilih_agama">Pilih Agama Anda</string>
+
+    <!-- Array untuk Spinner Agama -->
+    <string-array name="agama_array">
+        <item>Pilih Agama</item>
+        <item>Islam</item>
+        <item>Kristen</item>
+        <item>Katolik</item>
+        <item>Hindu</item>
+        <item>Buddha</item>
+        <item>Konghucu</item>
+    </string-array>
+</resources>
