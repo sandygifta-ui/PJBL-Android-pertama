@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".TransaksiActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Form Transaksi"
+        android:textSize="24sp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="544dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Minuman Section -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="MAKANAN"
+                android:textSize="18sp"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
+                android:textColor="?android:attr/textColorPrimary"/>
+
+            <!-- Soto -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:text="Soto (Rp 8.000)"
+                    android:layout_marginStart="30dp"
+                    android:textSize="16sp"/>
+
+                <EditText
+                    android:id="@+id/etSoto"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:layout_marginEnd="20dp"
+                    android:minHeight="48dp"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:hint="Jml"/>
+            </LinearLayout>
+
+            <!-- Timlo -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Timlo (Rp 10.000)"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:layout_marginStart="30dp"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etTimlo"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:layout_marginEnd="20dp"
+                    android:minHeight="48dp"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:hint="Jml"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:text="Nasi Ayam (Rp 12.000)"
+                    android:layout_marginStart="30dp"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etAyam"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:layout_marginEnd="20dp"
+                    android:minHeight="48dp"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:hint="Jml"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:text="Indomie (Rp 10.000)"
+                    android:layout_marginStart="30dp"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etIndomie"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:layout_marginEnd="20dp"
+                    android:minHeight="48dp"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:hint="Jml"/>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="MINUMAN"
+                android:textSize="18sp"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
+                android:textColor="?android:attr/textColorPrimary"/>
+
+            <!-- Es Teh -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:text="Es Teh (Rp 3.000)"
+                    android:layout_marginStart="30dp"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etEsTeh"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:layout_marginEnd="20dp"
+                    android:minHeight="48dp"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:hint="Jml"/>
+            </LinearLayout>
+
+            <!-- Es Jeruk -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:text="Es Jeruk (Rp 4.000)"
+                    android:layout_marginStart="30dp"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etEsJeruk"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:layout_marginEnd="20dp"
+                    android:minHeight="48dp"
+                    android:textColor="#333333"
+                    android:hint="Jml"/>
+            </LinearLayout>
+
+            <!-- Teh Panas -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:text="Nutrisari (Rp 3.000)"
+                    android:layout_marginStart="30dp"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etNutrisari"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:layout_marginEnd="20dp"
+                    android:minHeight="48dp"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:hint="Jml"/>
+            </LinearLayout>
+
+            <!-- Jeruk Panas -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:text="Kopi (Rp 5.000)"
+                    android:layout_marginStart="30dp"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/etKopi"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:layout_marginEnd="20dp"
+                    android:minHeight="48dp"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:hint="Jml"/>
+            </LinearLayout>
+
+            <!-- Customer Name -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Nama Pelanggan"
+                android:textSize="16sp"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/etNamaPelanggan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="15dp"
+                android:minHeight="48dp"
+                android:textColor="?android:attr/textColorPrimary"
+                android:hint="Masukkan nama pelanggan" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHitung"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#2196F3"
+            android:textColor="?android:attr/textColorPrimary"
+            android:text="HITUNG" />
+
+    </LinearLayout>
+
+</LinearLayout>

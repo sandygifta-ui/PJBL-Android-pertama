@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul Nota -->
+        <TextView
+            android:id="@+id/tvJudulNota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOTA TRANSAKSI"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Info Warung dan Pelanggan -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:elevation="3dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tvNamaWarung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Warung MakanKita"
+                android:textStyle="bold"
+                android:textColor="#27AE60"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvNamaPelanggan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Pelanggan: "
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvTanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal: "
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Header Tabel -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.1"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content"
+                android:text="Item"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.2"
+                android:layout_height="wrap_content"
+                android:text="Jumlah"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:text="Harga"
+                android:textStyle="bold"
+                android:gravity="end" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="wrap_content"
+                android:text="Subtotal"
+                android:textStyle="bold"
+                android:gravity="end" />
+        </LinearLayout>
+
+        <!-- Daftar Item (akan diisi secara dinamis dari Kotlin) -->
+        <LinearLayout
+            android:id="@+id/layoutDaftarItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="4dp">
+
+                <TextView
+                    android:id="@+id/tvNo"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:layout_height="wrap_content"
+                    android:text="1" />
+
+                <TextView
+                    android:id="@+id/tvItem"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_height="wrap_content"
+                    android:text="Soto Ayam" />
+
+                <TextView
+                    android:id="@+id/tvJumlah"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvHarga"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="wrap_content"
+                    android:text="8.000"
+                    android:gravity="end" />
+
+                <TextView
+                    android:id="@+id/tvSubtotal"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="wrap_content"
+                    android:text="16.000"
+                    android:gravity="end" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Garis Pemisah -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCC"
+            android:layout_marginVertical="8dp" />
+
+        <!-- Total -->
+        <TextView
+            android:id="@+id/tvTotalBayar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Bayar: Rp0"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#E74C3C"
+            android:gravity="end"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Tombol Cetak dan Kembali -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnCetak"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Cetak Nota"
+                android:backgroundTint="#2E86C1"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:layout_marginEnd="8dp"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/btnKembali"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Kembali"
+                android:backgroundTint="#27AE60"
+                android:textColor="#FFF"
+                android:textStyle="bold"
+                android:padding="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
