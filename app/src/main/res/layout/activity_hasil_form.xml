@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="HASIL PENDAFTARAN"
+            android:text="@string/hasil_pendaftaran"
             android:textSize="30sp"
             android:textStyle="bold"
             android:gravity="center"
@@ -25,7 +25,7 @@
             android:id="@+id/tvNama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nama: "
+            android:text="@string/nama"
             android:textSize="20sp"
             android:textColor="#333"
             android:layout_marginBottom="12dp"/>
@@ -34,7 +34,7 @@
             android:id="@+id/tvAlamat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Alamat: "
+            android:text="@string/Alamat"
             android:textSize="20sp"
             android:textColor="#333"
             android:layout_marginBottom="12dp"/>
@@ -43,7 +43,7 @@
             android:id="@+id/tvNoHP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="No HP: "
+            android:text="@string/no_hp"
             android:textSize="20sp"
             android:textColor="#333"
             android:layout_marginBottom="12dp"/>
@@ -52,7 +52,7 @@
             android:id="@+id/tvAgama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Agama: "
+            android:text="@string/Agama"
             android:textSize="20sp"
             android:textColor="#333"
             android:layout_marginBottom="12dp"/>
@@ -61,7 +61,7 @@
             android:id="@+id/tvJenisKelamin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Jenis Kelamin: "
+            android:text="@string/Jenis_kelamin"
             android:textSize="20sp"
             android:textColor="#333"
             android:layout_marginBottom="12dp"/>
@@ -70,7 +70,7 @@
             android:id="@+id/tvHobi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hobi: "
+            android:text="@string/Hobi"
             android:textSize="20sp"
             android:textColor="#333"
             android:layout_marginBottom="24dp"/>
@@ -79,7 +79,7 @@
             android:id="@+id/btnKembali"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="KEMBALI"
+            android:text="@string/kembali"
             android:textSize="25sp"
             android:padding="16dp"/>
 

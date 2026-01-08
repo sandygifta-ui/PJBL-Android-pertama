@@ -19,7 +19,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Konversi Suhu"
+                android:text="@string/konversi_suhu"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:gravity="center"
@@ -43,7 +43,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Dari"
+                        android:text="@string/dari"
                         android:textSize="24sp"
                         android:layout_marginBottom="8dp"/>
 
@@ -58,7 +58,7 @@
                             android:layout_centerVertical="true"
                             android:layout_toStartOf="@id/spinner1"
                             android:layout_marginEnd="12dp"
-                            android:hint="Masukkan nilai"
+                            android:hint="@string/masukkan_nilai"
                             android:textSize="24sp"
                             android:inputType="numberDecimal|numberSigned"
                             android:background="@android:color/transparent"
@@ -97,7 +97,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Ke"
+                        android:text="@string/ke"
                         android:textSize="24sp"
                         android:layout_marginBottom="8dp"/>
 
@@ -112,7 +112,7 @@
                             android:layout_centerVertical="true"
                             android:layout_toStartOf="@id/spinner2"
                             android:layout_marginEnd="12dp"
-                            android:hint="Hasil"
+                            android:hint="@string/hasil"
                             android:textSize="24sp"
                             android:inputType="numberDecimal|numberSigned"
                             android:background="@android:color/transparent"
@@ -141,7 +141,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:layout_margin="16dp"
-                android:text="HITUNG"
+                android:text="@string/hitung"
                 app:cardCornerRadius="10dp"
                 android:textSize="16sp"
                 android:textStyle="bold"

@@ -15,11 +15,11 @@
             android:id="@+id/tvJudulNota"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="NOTA TRANSAKSI"
-            android:textSize="24sp"
-            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
             android:gravity="center"
-            android:layout_marginBottom="16dp" />
+            android:text="@string/nota_transaksi"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
         <!-- Info Warung dan Pelanggan -->
         <LinearLayout
@@ -34,7 +34,7 @@
                 android:id="@+id/tvNamaWarung"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Warung MakanKita"
+                android:text="@string/warung_makankita"
                 android:textStyle="bold"
                 android:textColor="#27AE60"
                 android:textSize="18sp"
@@ -45,14 +45,14 @@
                 android:id="@+id/tvNamaPelanggan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nama Pelanggan: "
+                android:text="@string/nama_pelanggan"
                 android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/tvTanggal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tanggal: "
+                android:text="@string/tanggal"
                 android:textSize="16sp" />
         </LinearLayout>
 
@@ -67,14 +67,14 @@
                 android:layout_width="0dp"
                 android:layout_weight="0.1"
                 android:layout_height="wrap_content"
-                android:text="No"
+                android:text="@string/no"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_weight="0.4"
                 android:layout_height="wrap_content"
-                android:text="Item"
+                android:text="@string/item"
                 android:textStyle="bold"
                 />
 
@@ -82,7 +82,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="0.2"
                 android:layout_height="wrap_content"
-                android:text="Jumlah"
+                android:text="@string/jumlah"
                 android:textStyle="bold"
                 android:gravity="center" />
 
@@ -90,7 +90,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="0.3"
                 android:layout_height="wrap_content"
-                android:text="Harga"
+                android:text="@string/harga"
                 android:textStyle="bold"
                 android:gravity="end" />
 
@@ -98,7 +98,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="0.3"
                 android:layout_height="wrap_content"
-                android:text="Subtotal"
+                android:text="@string/subtotal"
                 android:textStyle="bold"
                 android:gravity="end" />
         </LinearLayout>
@@ -169,7 +169,7 @@
             android:id="@+id/tvTotalBayar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Total Bayar: Rp0"
+            android:text="@string/total_bayar_rp0"
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="#E74C3C"
@@ -188,7 +188,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Cetak Nota"
+                android:text="@string/cetak_nota"
                 android:backgroundTint="#2E86C1"
                 android:textColor="#FFF"
                 android:textStyle="bold"
@@ -200,7 +200,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Kembali"
+                android:text="@string/kembalii"
                 android:backgroundTint="#27AE60"
                 android:textColor="#FFF"
                 android:textStyle="bold"

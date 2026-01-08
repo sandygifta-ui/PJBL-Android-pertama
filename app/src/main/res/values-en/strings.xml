@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Registration Form</string>
+    <string name="pilih_agama">Choose Religion</string>
+
+    <!-- Array untuk Spinner Agama -->
+    <string-array name="agama_array">
+        <item>Choose Religion</item>
+        <item>Islam</item>
+        <item>Christian</item>
+        <item>Catholic</item>
+        <item>Hindu</item>
+        <item>Buddhist</item>
+        <item>Confucian</item>
+    </string-array>
+    <string name="btn_simpan">Save</string>
+    <string name="jenis_kelamin">Gender</string>
+    <string name="form_pendaftaran">Registration form</string>
+    <string name="nama_lengkapp">Full name</string>
+    <string name="masukkan_nama_lengkap">Enter Full Name</string>
+    <string name="alamatt">Address</string>
+    <string name="masukkan_alamat">Enter Address</string>
+    <string name="nomor_hpp">Phone Number</string>
+    <string name="masukkan_nomor_hp">Enter Phone Number</string>
+    <string name="agama">Religion</string>
+    <string name="jenis_kelaminn">Gender</string>
+    <string name="laki_laki">Male</string>
+    <string name="perempuan">Female</string>
+    <string name="hobi">Hobbies</string>
+    <string name="membaca">reading</string>
+    <string name="makan">Eating</string>
+    <string name="tidur">Sleeping</string>
+    <string name="olahraga">Exercise</string>
+    <string name="simpan">Save</string>
+    <string name="nama_lengkap">Full name</string>
+    <string name="email">Email</string>
+    <string name="nomor_hp">Mobile phone number</string>
+    <string name="alamat">Addres</string>
+    <string name="tanggal_lahir">Date of birth</string>
+    <string name="hasil_pendaftaran">Registration Results</string>
+    <string name="nama">Name:</string>
+    <string name="Alamat">Addres:</string>
+    <string name="no_hp">No HP:</string>
+    <string name="Agama">Religions:</string>
+    <string name="Jenis_kelamin">Gender:</string>
+    <string name="Hobi">Hobbiest:</string>
+    <string name="kembali">RETURNS</string>
+    <string name="konversi_suhu">Temperature Conversion</string>
+    <string name="dari">From</string>
+    <string name="masukkan_nilai">Enter Value</string>
+    <string name="ke">To</string>
+    <string name="hasil">Result</string>
+    <string name="hitung">Calculate</string>
+    <string name="Tempat_Yaya">уᥲуᥲ\'s⋆⍴ᥣᥲᥴᥱ𐙚</string>
+    <string name="Profile">⍴r᥆𝖿іᥣᥱ</string>
+    <string name="Form">𝖿᥆rm</string>
+    <string name="Calculator">ᥴᥲᥣᥴᥙᥣᥲ𝗍᥆r</string>
+    <string name="Form_transaksi">𝖿᥆rm 𝗍rᥲᥒsᥲksі</string>
+    <string name="Konversi_suhu">k᥆ᥒ᥎ᥱrsі sᥙһᥙ</string>
+    <string name="Exit">ᥱхі𝗍</string>
+    <string name="nota_transaksi">Transaction Notes</string>
+    <string name="warung_makankita">Warung MakanKita</string>
+    <string name="nama_pelanggan">Customer Name</string>
+    <string name="tanggal">Date</string>
+    <string name="no">No</string>
+    <string name="item">Item</string>
+    <string name="jumlah">Amount</string>
+    <string name="harga">Price</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="total_bayar_rp0">Total Payment: Rp0</string>
+    <string name="cetak_nota">Print Notes</string>
+    <string name="kembalii">Back</string>
+    <string name="Profilee">𝙿𝚁𝙾𝙵𝙸𝙻𝙴</string>
+    <string name="informasi_pribadi">Personal Information</string>
+    <string name="tanggal_lahirr">Date of birth</string>
+    <string name="kamis_12_maret_2009">Thursday, March 12, 2029</string>
+    <string name="Alamatt">Addres</string>
+    <string name="pabelan_kartasura_sukoharjo_jawa_tengah">Pabelan,Kartasura, Sukoharjo, Central Java</string>
+    <string name="pendidikan_formal">Formal Education</string>
+    <string name="informasi_kontak">Contact Information</string>
+    <string name="form_transaksi">Transaction Form</string>
+    <string name="makanan">FOOD</string>
+    <string name="minuman">DRINKS</string>
+    <string name="es_teh_rp_3_000">Ice Tea (Rp 3.000)</string>
+    <string name="es_jeruk_rp_4_000">Iced Orange Juice (Rp 4.000)</string>
+    <string name="nama_pelanggann">Customer name</string>
+    <string name="masukkan_nama_pelanggan">Enter customer name</string>
+    <string name="hitungg">Calculate</string>
+</resources>

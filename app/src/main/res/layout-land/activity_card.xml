@@ -29,7 +29,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="уᥲуᥲ's⋆⍴ᥣᥲᥴᥱ𐙚"
+                android:text="@string/Tempat_Yaya"
                 android:textSize="35sp"
                 android:textStyle="bold"
                 android:textColor="?android:attr/textColorPrimary"
@@ -69,7 +69,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="⍴r᥆𝖿іᥣᥱ"
+                        android:text="@string/Profile"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:textColor="#1A1A1A"
@@ -103,11 +103,11 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="𝖿᥆rm"
-                        android:textSize="18sp"
-                        android:textStyle="bold"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/Form"
                         android:textColor="#1A1A1A"
-                        android:layout_marginTop="8dp"/>
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -137,7 +137,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="ᥴᥲᥣᥴᥙᥣᥲ𝗍᥆r"
+                        android:text="@string/Calculator"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:textColor="#1A1A1A"
@@ -180,7 +180,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="𝖿᥆rm 𝗍rᥲᥒsᥲksі"
+                        android:text="@string/Form_transaksi"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:textColor="#1A1A1A"
@@ -214,7 +214,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="k᥆ᥒ᥎ᥱrsі sᥙһᥙ"
+                        android:text="@string/Konversi_suhu"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:textColor="#1A1A1A"
@@ -248,7 +248,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="ᥱхі𝗍"
+                        android:text="@string/Exit"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:textColor="#1A1A1A"
