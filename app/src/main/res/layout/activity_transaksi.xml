@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:gravity="center"
-        android:text="Form Transaksi"
+        android:text="@string/form_transaksi"
         android:textSize="24sp"
         android:textColor="?android:attr/textColorPrimary"
         android:textStyle="bold" />
@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:text="MAKANAN"
+                android:text="@string/makanan"
                 android:textSize="18sp"
                 android:layout_marginStart="15dp"
                 android:textStyle="bold"
@@ -160,7 +160,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:text="MINUMAN"
+                android:text="@string/minuman"
                 android:textSize="18sp"
                 android:layout_marginStart="15dp"
                 android:textStyle="bold"
@@ -178,7 +178,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="?android:attr/textColorPrimary"
-                    android:text="Es Teh (Rp 3.000)"
+                    android:text="@string/es_teh_rp_3_000"
                     android:layout_marginStart="30dp"
                     android:textSize="16sp" />
 
@@ -206,7 +206,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:textColor="?android:attr/textColorPrimary"
-                    android:text="Es Jeruk (Rp 4.000)"
+                    android:text="@string/es_jeruk_rp_4_000"
                     android:layout_marginStart="30dp"
                     android:textSize="16sp" />
 
@@ -283,7 +283,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Nama Pelanggan"
+                android:text="@string/nama_pelanggann"
                 android:textSize="16sp"
                 android:layout_marginStart="15dp"
                 android:textStyle="bold"
@@ -297,7 +297,7 @@
                 android:layout_marginStart="15dp"
                 android:minHeight="48dp"
                 android:textColor="?android:attr/textColorPrimary"
-                android:hint="Masukkan nama pelanggan" />
+                android:hint="@string/masukkan_nama_pelanggan" />
 
 
         </LinearLayout>
@@ -318,7 +318,7 @@
             android:layout_marginBottom="30dp"
             android:backgroundTint="#2196F3"
             android:textColor="?android:attr/textColorPrimary"
-            android:text="HITUNG" />
+            android:text="@string/hitungg" />
 
     </LinearLayout>
 

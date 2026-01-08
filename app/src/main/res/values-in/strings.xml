@@ -1,26 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Form Pendaftaran</string>
-
-    <!-- Array untuk Spinner Agama -->
-    <string-array name="agama_array">
-        <item>Pilih Agama</item>
-        <item>Islam</item>
-        <item>Kristen</item>
-        <item>Katolik</item>
-        <item>Hindu</item>
-        <item>Buddha</item>
-        <item>Konghucu</item>
-    </string-array>
     <string name="btn_simpan">Simpan</string>
-    <string name="nama_lengkap">Nama Lengkap</string>
-    <string name="email">Email</string>
-    <string name="nomor_hp">Nomor Handphone</string>
-    <string name="alamat">Alamat</string>
-    <string name="tanggal_lahir">Tanggal Lahir</string>
     <string name="jenis_kelamin">Jenis Kelamin</string>
     <string name="form_pendaftaran">Form Pendaftaran</string>
     <string name="nama_lengkapp">Nama Lengkap</string>
-    <string name="masukkan_nama_lengkap">Masukkan nama lengkap</string>
     <string name="alamatt">Alamat</string>
     <string name="masukkan_alamat">Masukkan alamat</string>
     <string name="nomor_hpp">Nomor HP</string>
@@ -35,7 +19,13 @@
     <string name="tidur">Tidur</string>
     <string name="olahraga">Olahraga</string>
     <string name="simpan">Simpan</string>
-    <string name="pilih_agama">Pilih agama</string>
+    <string name="nama_lengkap">Nama lengkap</string>
+    <string name="email">Email</string>
+    <string name="nomor_hp">Nomor Handphone</string>
+    <string name="alamat">Alamat</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="masukkan_nama_lengkap">Masukan nama lengkap</string>
+    <string name="pilih_agama">Pilih Agama</string>
     <string name="hasil_pendaftaran">HASIL PENDAFTARAN</string>
     <string name="nama">Nama:</string>
     <string name="Alamat">Alamat:</string>
@@ -85,5 +75,4 @@
     <string name="nama_pelanggann">Nama Pelanggan</string>
     <string name="masukkan_nama_pelanggan">Masukkan nama pelanggan</string>
     <string name="hitungg">HITUNG</string>
-    <string name="pabelan_kartasura_sukoharjo_jawa_tengah">Pabelan,Kartasura, Sukoharjo, Central Java</string>
 </resources>

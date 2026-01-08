@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="32dp"
-            android:text="Form Pendaftaran"
+            android:text="@string/form_pendaftaran"
             android:textSize="40sp"
             android:textStyle="bold" />
 
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:baselineAligned="false"
-            android:text="Nama Lengkap"
+            android:text="@string/nama_lengkapp"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginBottom="16dp"
-            android:hint="Masukkan nama lengkap"
+            android:hint="@string/masukkan_nama_lengkap"
             android:paddingLeft="16dp"
             android:paddingRight="16dp" />
 
@@ -42,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Alamat"
+            android:text="@string/alamatt"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -51,7 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginBottom="16dp"
-            android:hint="Masukkan alamat"
+            android:hint="@string/masukkan_alamat"
             android:paddingLeft="16dp"
             android:paddingRight="16dp" />
 
@@ -59,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Nomor HP"
+            android:text="@string/nomor_hpp"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -68,7 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginBottom="16dp"
-            android:hint="Masukkan nomor HP"
+            android:hint="@string/masukkan_nomor_hp"
             android:inputType="phone"
             android:paddingLeft="16dp"
             android:paddingRight="16dp" />
@@ -77,7 +77,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Agama"
+            android:text="@string/agama"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -94,7 +94,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Jenis Kelamin"
+            android:text="@string/jenis_kelaminn"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -110,14 +110,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="24dp"
-                android:text="Laki-laki"
+                android:text="@string/laki_laki"
                 android:textSize="16sp" />
 
             <RadioButton
                 android:id="@+id/rbPerempuan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Perempuan"
+                android:text="@string/perempuan"
                 android:textSize="16sp" />
         </RadioGroup>
 
@@ -125,7 +125,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Hobi"
+            android:text="@string/hobi"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -133,21 +133,21 @@
             android:id="@+id/cbMembaca"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Membaca"
+            android:text="@string/membaca"
             android:textSize="16sp" />
 
         <CheckBox
             android:id="@+id/cbMakan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Makan"
+            android:text="@string/makan"
             android:textSize="16sp" />
 
         <CheckBox
             android:id="@+id/cbTidur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tidur"
+            android:text="@string/tidur"
             android:textSize="16sp" />
 
         <CheckBox
@@ -155,14 +155,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
-            android:text="Olahraga"
+            android:text="@string/olahraga"
             android:textSize="16sp" />
 
         <Button
             android:id="@+id/btnSimpan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Simpan" />
+            android:text="@string/simpan" />
 
     </LinearLayout>
 
